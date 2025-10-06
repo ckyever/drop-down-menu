@@ -1,11 +1,7 @@
 body {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-}
-
-.container {
-  height: 100px;
-  width: 100px;
-  border: 2px solid black;
+  height: 100vh;
 }
